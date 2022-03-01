@@ -9,3 +9,9 @@ To see an example, visit [smosa.com/random](https://smosa.com/random)
 const random = require("./random");
 console.log(random());
 ~~~
+
+Or directly on the command line
+
+~~~bash
+node -e "console.log(require('./random')())"
+~~~
